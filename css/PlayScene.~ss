@@ -1,0 +1,218 @@
+BorderPane {
+    -fx-background-color: #E6B87F;
+}
+
+
+.bpCenter{
+    -fx-background-image: url("/img/gameBoard.png");
+    -fx-background-size: 98% 98%;
+    -fx-background-color: black;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-color: black;
+    -fx-border-width:10px;
+}
+
+.statusLabel {
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-padding: 0;
+    -fx-text-fill: #000000;
+}
+
+.spLeft{
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+
+Button {
+    -fx-background-size: auto 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 10px;
+}
+
+.btEndMove {
+    -fx-background-image: url("/img/buttons/btEndTurn.png");
+    -fx-background-size: auto 85%;
+}
+
+.btPause {
+    -fx-background-image: url(/img/buttons/btPause.png);
+    -fx-background-size: auto 85%;
+}
+
+.btRoll {
+    -fx-background-image: url(/img/buttons/btRoll.png);    
+}
+
+.btSell {
+    -fx-background-image: url(/img/buttons/btSell.png);
+}
+
+
+.btResume {
+   -fx-background-image: url(/img/buttons/btResume.png); 
+}
+
+.btMenu {
+   -fx-background-image: url(/img/buttons/btMenuPause.png);
+}
+
+.btQuit {
+   -fx-background-image: url(/img/buttons/btExit.png);
+}
+
+.btBuy {
+    -fx-background-image: url(../img/buttons/btBuy.png);
+}
+
+.btIgnore {
+    -fx-background-image: url(../img/buttons/btIgnore.png);
+}
+
+.btPay {
+    -fx-background-image: url(img/buttons/btPay.png);    
+}
+
+.btReBuy {
+    -fx-background-image: url(img/buttons/btBuyFrom.png);
+}
+
+.btUpgrade {
+    -fx-background-image: url(img/buttons/btUpgrade.png);
+}
+
+.btOk {
+    -fx-background-image: url(img/buttons/btOk.png);
+}
+
+.lbPozemky {
+    -fx-background-image: url(/img/labels/lbPozemky.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-postition: auto 100%;
+}
+
+.lbNazov {  
+    -fx-background-image: url(/img/labels/lbNazov.png);
+}
+
+.lbUroven {
+    -fx-background-image: url(/img/labels/lbUroven.png);
+}
+
+.lbPredaj {
+    -fx-background-image: url(/img/labels/lbPredaj.png);
+}
+
+.lbPapez {
+    -fx-background-image: url(/img/labels/lbPapez.png);
+}
+
+.lbPoklad {
+    -fx-background-image: url(/img/labels/lbPoklad.png);
+}
+
+.lbPark {
+    -fx-background-image: url(/img/labels/lbPark.png);    
+}
+
+.lbLunik {
+    -fx-background-image: url(/img/labels/lbLunik.png);    
+}
+
+.lbBankrot {
+    -fx-background-image: url(/img/labels/lbBankrot.png);    
+}
+
+.lbPredaj, .lbNazov, .lbUroven, .lbPapez, .lbPoklad, .lbPark, .lbLunik, .lbPoplatok, .lbBankrot {
+    -fx-background-size: 100% auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-postition: center;
+}
+
+.lbProperty, .lbPrice, .lbRent, .lbReBuy, .lbTitle, .lbError, .lbMoney, .lbVazenie, .lbOddych, .lbStoj, .lbProperties,
+.lbWin, .lbPlayer
+{
+    -fx-background-image: url(/img/buttons/btMenu.png);
+    -fx-background-size: 100% auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-text-fill: black;
+    -fx-font-weight: bolder;
+    -fx-font-size: 25;    
+}
+
+.lbError {
+    -fx-font-weight: bold;    
+}
+
+.lbWins {
+    -fx-font-weight: 900;
+    -fx-text-fill: #A67B4F;
+    -fx-border-width: 2px;
+    -fx-border-color: #A67B4F;
+    -fx-border-radius: 10px;
+    -fx-background-color: #E6B87F;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;     
+}
+
+.cbProperties {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 30, 0, 0, 1);   
+}
+
+.cbProperties .list-view {
+    -fx-background-color: transparent;
+}
+
+.cbProperties .list-cell {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-text-fill: #A67B4F;
+    -fx-font-weight: bolder;    
+}
+
+.cbProperties .list-cell:hover {
+    -fx-background-color: #F1D19A;
+} 
+
+ListView {
+    -fx-background-color: transparent;    
+}
+
+ListView .list-cell {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #A67B4F;
+    -fx-font-weight: bolder;
+    -fx-margin : 5 0 5 0; 
+}
+
+ListView .list-cell:hover {
+    -fx-background-color: #F1D19A;    
+}
+
+ListView .list-cell:selected {
+    -fx-background-color: #A67B4F;
+    -fx-text-fill: #E6B87F;    
+}
+
+ListView .scroll-bar .thumb {
+    -fx-background-color: #A67B4F;
+}                                                                                                                                            

@@ -1,0 +1,47 @@
+Button {
+    -fx-background-size: auto 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;  
+}
+
+.btBack {
+    -fx-background-image: url("/img/buttons/btBack.png");
+}
+
+Label {
+    -fx-background-size: auto 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+}
+
+.lbMusic {
+    -fx-background-image: url("/img/labels/lbMusic.png");
+}
+
+.lbEffects {
+    -fx-background-image: url("/img/labels/lbEffects.png");
+}
+
+Slider {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #A67B4F;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 30, 0, 0, 1); 
+}
+
+Slider .track {
+    -fx-background-color: #D29E6F;
+}
+
+Slider .thumb {
+    -fx-background-color: #A67B4F;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1);  
+}

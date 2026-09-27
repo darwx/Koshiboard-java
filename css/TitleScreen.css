@@ -1,0 +1,31 @@
+.body {
+   -fx-background-image: url(img/menuBackground.jpg);
+   -fx-background-size: cover;
+   -fx-background-postition: center;
+   -fx-background-repeat: no-repeat; 
+}
+
+Button {
+    -fx-background-size: auto 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 10px;  
+}
+
+.btPlay {
+  -fx-background-image: url("/img/buttons/btMenuPlay.png");
+}
+
+.btSettings {
+  -fx-background-image: url("/img/buttons/btMenuSettings.png");    
+}
+
+.btExit {
+  -fx-background-image: url("/img/buttons/btMenuExit.png");
+}
+
+.btCredits{
+  -fx-background-image: url("/img/buttons/btMenuCredits.png");
+}

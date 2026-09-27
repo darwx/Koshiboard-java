@@ -1,0 +1,226 @@
+﻿[Files]
+File0=Credits.java
+File1=GameSetUp.java
+File2=GameSetUpPlayers.java
+File3=GlobalVars.java
+File4=Player.java
+File5=PlayScene.java
+File6=Settings.java
+File7=TileBase.java
+File8=TileChance.java
+File9=TileFunction.java
+File10=TileProperty.java
+File11=TitleMenu.java
+
+[Box:  - Credits]
+X=269
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - Credits$ButtonPress]
+X=193
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - GameSetUp]
+X=20
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - GameSetUp$ButtonPress]
+X=20
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - GameSetUpPlayers]
+X=1911
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - GameSetUpPlayers$ButtonPress]
+X=2145
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - GlobalVars]
+X=20
+Y=2293
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - Player]
+X=1406
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - PlayScene]
+X=902
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - PlayScene$ButtonPress]
+X=1233
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - Settings]
+X=501
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - Settings$ButtonPress]
+X=366
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - TileBase]
+X=759
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - TileChance]
+X=630
+Y=2293
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - TileFunction]
+X=288
+Y=2293
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - TileProperty]
+X=942
+Y=2293
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - TitleMenu]
+X=1738
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Box:  - TitleMenu$ButtonPress]
+X=1972
+Y=1744
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+FontSize=6
+FontName=Segoe UI
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=1
+ShowConnections=0
+Fontname=Segoe UI
+Fontsize=6
+ShowObjectDiagram=0
+
+[Connections]
+V0=Credits#Credits$ButtonPress#AssociationDirected####0#0#0###0#0
+V1=GameSetUp#GameSetUp$ButtonPress#AssociationDirected####0#0#0###0#0
+V2=GameSetUpPlayers#Player#AssociationDirected####0#0#0###0#0
+V3=GameSetUpPlayers#GameSetUpPlayers$ButtonPress#AssociationDirected####0#0#0###0#0
+V4=Player#TileProperty#Aggregation####0#0#0###0#0
+V5=PlayScene#Player#AssociationDirected####0#0#0###0#0
+V6=PlayScene#TileProperty#AssociationDirected####0#0#0###0#0
+V7=PlayScene#TileChance#AssociationDirected####0#0#0###0#0
+V8=PlayScene#TileBase#AssociationDirected####0#0#0###0#0
+V9=PlayScene#PlayScene$ButtonPress#AssociationDirected####0#0#0###0#0
+V10=Settings#Settings$ButtonPress#AssociationDirected####0#0#0###0#0
+V11=TileChance#TileBase#Inheritends####0#0#0###0#0
+V12=TileProperty#TileBase#Inheritends####0#0#0###0#0
+V13=TitleMenu#TitleMenu$ButtonPress#AssociationDirected####0#0#0###0#0
+
+[Interactive]
+I0=
+

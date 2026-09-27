@@ -1,0 +1,88 @@
+Label {
+    -fx-font-weight: bolder;
+    -fx-text-fill: #A67B4F;
+    -fx-background-size: 100% auto; 
+    -fx-background-repeat: no-repeat;      
+}
+
+.lbError {
+    -fx-font-size: 20;
+}
+
+Button {
+    -fx-background-size: auto 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 30, 0, 0, 1);  
+}
+
+TextField {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+    -fx-text-fill: #A67B4F;
+    -fx-font-weight: bolder;
+    -fx-prompt-text-fill: #D29E6F;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 30, 0, 0, 1);    
+}
+
+ChoiceBox {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 30, 0, 0, 1);
+}
+
+ChoiceBox .menu-item {
+    -fx-background-color: #E6B87F;
+    -fx-border-color: #D29E6F;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 3px;
+    -fx-text-fill: #A67B4F;
+    -fx-font-weight: bolder;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1);    
+}
+
+ChoiceBox .menu-item:focused {
+    -fx-border-color: #D29E6F;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 3px;    
+}
+
+ChoiceBox .menu-item:hover {
+    -fx-background-color: #F1D19A;    
+}
+
+ChoiceBox > .label {
+    -fx-text-fill: #A67B4F;        
+}
+
+ChoiceBox .menu-item > .label {
+    -fx-text-fill: #A67B4F;    
+}
+
+ChoiceBox .context-menu {
+    -fx-background-color: transparent;
+}
+
+.btBack {
+    -fx-background-image: url("/img/buttons/btBack.png");    
+}
+
+.btPlay {
+    -fx-background-image: url("/img/buttons/btMenuPlay.png");    
+}
+
+.btOk {
+    -fx-background-image: url("/img/buttons/btOk.png");
+}
